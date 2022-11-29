@@ -7,7 +7,7 @@ class Foo {
     public $c = ['some', 'values'];
 	
 	public function func(){
-		echo 'sdfsdf '.__CLASS__;
+		echo 'sdfsdf     '.__CLASS__;
 		/*for ($i=0; $i<1000; $i++) {
 			$m = memory_get_usage();
 			${'var'.$i} = new self;
