@@ -1,0 +1,13 @@
+{
+    "name": "rbkevg/codescan",
+    "description": "codescan",
+    "type": "library",
+    "license": "free",
+    "autoload": {
+        "psr-4": {
+            "Rbkevg\\Codescan\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
