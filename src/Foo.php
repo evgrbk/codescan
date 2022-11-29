@@ -1,5 +1,5 @@
 <?php
-namespace Rbkevg\Codescan\;
+namespace Rbkevg\Codescan;
 
 class Foo {
     public $a = "foobarstring";
