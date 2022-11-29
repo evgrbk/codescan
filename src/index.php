@@ -1,4 +1,8 @@
 <?php
+namespace Rbkevg\Codescan;
+
+
+require __DIR__.'/vendor/autoload.php';
 
 class Foo {
     public $a = "foobarstring";
