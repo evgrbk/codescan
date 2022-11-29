@@ -2,7 +2,7 @@
     "name": "evgrbk/codescan",
     "description": "codescan",
     "type": "library",
-    "license": "free",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Rbkevg\\Codescan\\": "src/"
