@@ -15,6 +15,14 @@ class Foo {
 		}*/
 	}
 	
+	public function func1(){
+		echo 'func1     '.__CLASS__;
+		/*for ($i=0; $i<1000; $i++) {
+			$m = memory_get_usage();
+			${'var'.$i} = new self;
+			echo memory_get_usage() - $m"\n";
+		}*/
+	}
 }
 
 //$a = new Foo();
