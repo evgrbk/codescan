@@ -23,6 +23,15 @@ class Foo {
 			echo memory_get_usage() - $m"\n";
 		}*/
 	}
+	
+	public function func(){
+		echo 'func2     '.__CLASS__;
+		/*for ($i=0; $i<1000; $i++) {
+			$m = memory_get_usage();
+			${'var'.$i} = new self;
+			echo memory_get_usage() - $m"\n";
+		}*/
+	}
 }
 
 //$a = new Foo();
